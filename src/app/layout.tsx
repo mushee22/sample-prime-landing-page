@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import localFont from "next/font/local";
 import './globals.css';
+
 import SmoothScrolling from '@/components/ui/SmoothScrolling';
-import Footer from '@/components/sections/Footer/Footer';
 import Header from '@/components/sections/Header/Header';
 
 const sfProMedium = localFont({
@@ -32,7 +32,10 @@ export default function RootLayout({
             <body
                 className={`${sfProRegular.variable} ${sfProMedium.variable} antialiased`}
             >
-                {children}
+                <SmoothScrolling>
+                    <Header />
+                    {children}
+                </SmoothScrolling>
             </body>
         </html>
     );
