@@ -4,6 +4,7 @@ import './globals.css';
 
 import SmoothScrolling from '@/components/ui/SmoothScrolling';
 import Header from '@/components/sections/Header/Header';
+import Footer from '@/components/sections/Footer/Footer';
 
 const sfProMedium = localFont({
     src: "./fonts/SFPRODISPLAYMEDIUM.woff",
@@ -35,6 +36,7 @@ export default function RootLayout({
                 <SmoothScrolling>
                     <Header />
                     {children}
+                    <Footer />
                 </SmoothScrolling>
             </body>
         </html>
