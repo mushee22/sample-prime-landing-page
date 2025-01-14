@@ -10,7 +10,7 @@ import i5 from '@/app/assets/vectors/i5.png'
 
 const Service = () => {
     return (
-        <section className="bg-secondary pt-16 md:pt-26 pb-26 rounded-b-40">
+        <section className="bg-secondary pt-16 md:pt-26 pb-26 rounded-b-40" id="services">
             <Container>
                 <div className="text-center mb-14">
                     <Typography variant='heading' size='md' className='text-dark mb-6'>Our Services</Typography>

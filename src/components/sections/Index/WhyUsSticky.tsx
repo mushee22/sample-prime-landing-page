@@ -51,7 +51,6 @@ function WhyUsSticky() {
                         All Your Brand Needs is the Right Marketing Partner!
                     </Typography>
                 </motion.div>
-
                 <Separator orientation="vertical" className="w-[1px] h-[32vh] bg-primary/25 justify-self-center" />
             </div>
             <div className="h-screen">

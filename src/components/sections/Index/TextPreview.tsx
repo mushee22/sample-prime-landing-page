@@ -5,7 +5,7 @@ import { useRef } from "react"
 import { cn } from "@/lib/utils"
 import VariableFontCursorProximity from "@/components/fancy/variable-font-cursor-proximity"
 
-const texts = ["Overstimulated", "Underutilized", "Familiar", "Extraordinary"]
+const texts = ["Need to Launch a New", "Product but Don't Know ", "Where to Begin?"]
 
 export default function TextPreview() {
   const containerRef = useRef<HTMLDivElement>(null!)

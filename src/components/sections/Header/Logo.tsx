@@ -1,12 +1,20 @@
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 
-const Logo = ({ src }: { src: StaticImageData }) => {
-    return (
-        <Link href="/">
-            <Image src={src} alt="Vellody" className="h-9 w-auto" />
-        </Link>
-    );
+import logoLight from '@/app/assets/logo/logo.png';
+
+const Logo = () => {
+
+  return (
+    <Link href="/">
+      <Image
+        src={logoLight}
+        alt="Vellody"
+        className="h-9 w-[164px] object-contain transition-all duration-300"
+        style={{ filter: "drop-shadow(0px 21px 38px #000000)" }}
+      />
+    </Link>
+  );
 };
 
 export default Logo;

@@ -4,7 +4,7 @@ import { Typography } from "@/components/ui/Typography"
 
 const Testimonial = () => {
     return (
-        <section className="py-16 md:py-24">
+        <section className="py-16 md:py-24" id="clients">
             <Container className="border-b border-foreground/10 mb-14">
                 <div className="text-center mb-10">
                     <Typography variant='heading' size='md'>Our Client Voice</Typography>

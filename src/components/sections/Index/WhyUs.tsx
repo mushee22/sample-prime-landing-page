@@ -1,10 +1,8 @@
-
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react"
 
 import { Separator } from "@/components/ui/Separator";
-import { Typography } from "@/components/ui/Typography";
-import TextPreview from "./TextPreview";
+import TextPreview from "@/components/sections/Index/TextPreview";
 
 const WhyUs = () => {
     const section = useRef(null);
@@ -15,7 +13,7 @@ const WhyUs = () => {
     const smoothScale = useSpring(scale, { stiffness: 100, damping: 20 });
 
     return (
-        <section className=''>
+        <section id="why-choose-us">
             <div className="relative h-dvh grid" ref={section}>
                 <motion.div style={{ scale: smoothScale }} className="rounded-full bg-foreground size-[424px] absolute justify-self-center bottom-0" />
                 <div className="h-screen sticky top-0 grid">
@@ -25,8 +23,7 @@ const WhyUs = () => {
                             {/* <Typography variant="heading" size="md" className="text-dark">
                                 Need to Launch a New Product but Don't Know Where to Begin?
                             </Typography> */}
-
-                            <TextPreview/>
+                            <TextPreview />
                         </motion.div>
                         <Separator orientation="vertical" className="w-[1px] h-[inherit] bg-primary/25 justify-self-center" />
                     </div>

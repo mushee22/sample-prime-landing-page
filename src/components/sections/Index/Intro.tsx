@@ -7,11 +7,11 @@ const Intro = () => {
   const sectionRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
-    offset: ["start end", "center center"], 
+    offset: ["start end", "center center"],
   });
 
   return (
-    <section ref={sectionRef} className="overflow-hidden">
+    <section ref={sectionRef} className="overflow-hidden" id="who-we-are">
       <div className="py-48 text-center px-16">
         <div className="space-y-3">
           {introTexts.map((text, index) => (

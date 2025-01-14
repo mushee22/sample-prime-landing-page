@@ -1,15 +1,13 @@
 "use client"
 
 import Container from '@/components/ui/Container';
-import Logo from './Logo';
-import HamburgerMenu from './HamburgerMenu';
+import Logo from '@/components/sections/Header/Logo';
+import HamburgerMenu from '@/components/sections/Header/HamburgerMenu';
+import NavigationDropdown from '@/components/sections/Header/NavigationDropdown';
+
 import { useEffect, useState } from 'react';
-import NavigationDropdown from './NavigationDropdown';
 import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
-
-import logo from '@/app/assets/logo/logo.png';
-
 import { motion } from 'framer-motion'
 
 export default function Header() {
@@ -29,12 +27,12 @@ export default function Header() {
             <header className=''>
                 <Container className='z-50 relative'>
                     <div className="flex justify-between gap-10 items-center pt-6 pb-4">
-                        <Logo src={logo} />
+                        <Logo />
                         <HamburgerMenu isOpen={isOpen} setOpen={setOpen} />
                     </div>
                 </Container>
                 <div className={cn("fixed w-full inset-x-0 top-0 bg-background z-40 transition-all duration-700 pt-24 h-dvh", isOpen ? 'pointer-events-auto opacity-100' : 'opacity-0 -translate-y-full pointer-events-none')}>
-                    <NavigationDropdown />
+                    <NavigationDropdown setOpen={setOpen} />
                 </div>
             </header>
         </motion.div>
