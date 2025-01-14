@@ -6,9 +6,16 @@ import SmoothScrolling from '@/components/ui/SmoothScrolling';
 import Header from '@/components/sections/Header/Header';
 import Footer from '@/components/sections/Footer/Footer';
 
+const sfProBold = localFont({
+    src: "./fonts/SFPRODISPLAYMEDIUM.woff",
+    variable: "--font-sfPro-bold",
+    weight: "500",
+});
+
+
 const sfProMedium = localFont({
     src: "./fonts/SFPRODISPLAYMEDIUM.woff",
-    variable: "--font-sfPro-light",
+    variable: "--font-sfPro-medium",
     weight: "500",
 });
 
@@ -31,7 +38,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${sfProRegular.variable} ${sfProMedium.variable} antialiased`}
+                className={`${sfProRegular.variable} ${sfProMedium.variable}  ${sfProBold.variable} antialiased`}
             >
                 <SmoothScrolling>
                     <Header />

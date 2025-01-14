@@ -43,6 +43,16 @@
     }
 }
 
+@layer components {
+    .testimonial-pagination .swiper-pagination-bullet {
+        @apply size-1.5 bg-foreground opacity-100 transition-opacity duration-300 ease-in-out rounded-full;
+    }
+
+    .testimonial-pagination .swiper-pagination-bullet-active {
+        @apply opacity-100 !bg-primary w-5 h-1.5;
+    }
+}
+
 @layer utilities {
     ::-webkit-scrollbar {
         width: 8px;

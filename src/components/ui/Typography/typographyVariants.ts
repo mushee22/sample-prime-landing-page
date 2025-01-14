@@ -13,6 +13,7 @@ export const typographyVariants = cva('', {
             sm: '',
         },
         font: {
+            lg: 'font-bold',
             md: 'font-medium',
             sm: 'font-normal',
         },
@@ -36,7 +37,7 @@ export const typographyVariants = cva('', {
         {
             variant: 'title',
             size: 'lg',
-            className: 'max-sm:text-2xl sm:text-4xl lg:text-42 2xl:text-5xl',
+            className: 'max-sm:text-2xl sm:text-4xl lg:text-42 2xl:text-5xl 2xl:leading-[1.2]',
         },
 
         {

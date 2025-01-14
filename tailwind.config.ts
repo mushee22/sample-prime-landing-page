@@ -77,10 +77,14 @@ export default {
                 lg: 'var(--radius)',
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)',
+                '40': '40px'
             },
             backgroundImage: {
                 menuGradient: "linear-gradient(90deg, rgba(243, 149, 29, 0) 0%, #F3951D 100%)"
             },
+            padding: {
+                26: '124px'
+            }
         },
     },
     plugins: [require('tailwindcss-animate')],
