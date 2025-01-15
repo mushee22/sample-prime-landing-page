@@ -80,7 +80,8 @@ export default {
                 '40': '40px'
             },
             backgroundImage: {
-                menuGradient: "linear-gradient(90deg, rgba(243, 149, 29, 0) 0%, #F3951D 100%)"
+                menuGradient: "linear-gradient(90deg, rgba(243, 149, 29, 0) 0%, #F3951D 100%)",
+                borderGradient: "linear-gradient(92.83deg, rgba(243, 149, 29, 0.4) -2.81%, rgba(141, 86, 17, 0.04) 104.68%)"
             },
             padding: {
                 26: '124px'
