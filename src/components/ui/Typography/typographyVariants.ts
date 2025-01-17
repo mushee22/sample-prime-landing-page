@@ -27,7 +27,7 @@ export const typographyVariants = cva('', {
         {
             variant: 'heading',
             size: 'md',
-            className: 'max-sm:text-32 sm:text-42 lg:text-52 xl:text-58 2xl:text-7xl',
+            className: 'max-sm:text-32 sm:text-42 lg:text-52 xl:text-58 2xl:text-7xl 2xl:leading-[84px]',
         },
         {
             variant: 'heading',
