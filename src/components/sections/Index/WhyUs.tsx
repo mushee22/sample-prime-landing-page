@@ -2,7 +2,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react"
 
 import { Separator } from "@/components/ui/Separator";
-import TextPreview from "@/components/sections/Index/TextPreview";
+import { Typography } from "@/components/ui/Typography";
 
 const WhyUs = () => {
     const section = useRef(null);
@@ -20,10 +20,9 @@ const WhyUs = () => {
                     <div className="grid grid-rows-[1fr_auto_1fr] h-96 gap-8 max-w-[800px] mx-auto text-center relative z-[2]">
                         <Separator orientation="vertical" className="w-[1px] h-[inherit] bg-primary/25 justify-self-center" />
                         <motion.div>
-                            {/* <Typography variant="heading" size="md" className="text-dark">
+                            <Typography variant="heading" size="md" className="text-dark">
                                 Need to Launch a New Product but Don't Know Where to Begin?
-                            </Typography> */}
-                            <TextPreview />
+                            </Typography>
                         </motion.div>
                         <Separator orientation="vertical" className="w-[1px] h-[inherit] bg-primary/25 justify-self-center" />
                     </div>
