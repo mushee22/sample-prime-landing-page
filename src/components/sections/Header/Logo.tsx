@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import logoLight from '@/app/assets/logo/logo.png';
+import logoLight from '@/assets/logo/logo.png';
 
 const Logo = () => {
 

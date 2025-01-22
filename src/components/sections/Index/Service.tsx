@@ -2,12 +2,12 @@ import ServiceCard from "@/components/elements/Home/ServiceCard"
 import Container from "@/components/ui/Container"
 import { Typography } from "@/components/ui/Typography"
 
-import i1 from '@/app/assets/vectors/i1.png'
-import i2 from '@/app/assets/vectors/i2.png'
-import i3 from '@/app/assets/vectors/i3.png'
-import i4 from '@/app/assets/vectors/i4.png'
-import i5 from '@/app/assets/vectors/i5.png'
-import i6 from '@/app/assets/vectors/i6.png'
+import i1 from '@/assets/vectors/i1.png'
+import i2 from '@/assets/vectors/i2.png'
+import i3 from '@/assets/vectors/i3.png'
+import i4 from '@/assets/vectors/i4.png'
+import i5 from '@/assets/vectors/i5.png'
+import i6 from '@/assets/vectors/i6.png'
 
 const Service = () => {
     return (

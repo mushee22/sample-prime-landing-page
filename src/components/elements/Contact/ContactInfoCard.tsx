@@ -6,8 +6,8 @@ import { Separator } from "@/components/ui/Separator"
 import { Typography } from "@/components/ui/Typography"
 import SocialLink from "@/components/elements/Common/SocialLink"
 
-import bg from '@/app/assets/bg/contact.png'
-import vector from '@/app/assets/bg/v.png'
+import bg from '@/assets/bg/contact.png'
+import vector from '@/assets/bg/v.png'
 
 const ContactInfoCard = () => {
     return (

@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee'
 
 import { Typography } from '@/components/ui/Typography'
 
-import vector from '@/app/assets/vectors/pattern.png'
+import vector from '@/assets/vectors/pattern.png'
 
 const FooterMarquee = () => {
     return (

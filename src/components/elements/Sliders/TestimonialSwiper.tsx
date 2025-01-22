@@ -10,7 +10,7 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 import TestimonialItem, { TestimonialItemProps } from "@/components/elements/Home/TestimonialItem";
 
-import t1 from '@/app/assets/home/testimonial-img.jpeg'
+import t1 from '@/assets/home/testimonial-img.jpeg'
 import { cn } from "@/lib/utils";
 
 const breakpoints =

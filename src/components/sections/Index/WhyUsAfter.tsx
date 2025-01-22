@@ -3,7 +3,7 @@ import Image from "next/image"
 import Container from "@/components/ui/Container"
 import { Typography } from "@/components/ui/Typography"
 
-import logo from '@/app/assets/logo/logo-dark.png'
+import logo from '@/assets/logo/logo-dark.png'
 
 const WhyUsAfter = () => {
     return (
