@@ -11,12 +11,14 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
-  ...compat.plugins("react-hooks"),
   {
+    plugins: ["react-hooks"], 
     rules: {
-      "@typescript-eslint/no-empty-object-type": ["warn", { "allowObjectTypes": true }]
-    }
-  }
+      "react-hooks/rules-of-hooks": "error", 
+      "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/no-empty-object-type": ["warn", { allowObjectTypes: true }],
+    },
+  },
 ];
 
 export default eslintConfig;
