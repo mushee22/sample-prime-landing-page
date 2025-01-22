@@ -8,7 +8,7 @@ interface NavigationDropdownProps {
 
 const NavigationDropdown = ({ setOpen }: NavigationDropdownProps) => {
     return (
-        <Container className="grid content-between h-full pb-4">
+        <div className="grid content-between h-full pb-4">
             <nav className="mb-12 2xl:mb-28">
                 <ul>
                     {menuItems.map((item, i) => (
@@ -16,8 +16,8 @@ const NavigationDropdown = ({ setOpen }: NavigationDropdownProps) => {
                     ))}
                 </ul>
             </nav>
-            <LogoComponent />
-        </Container >
+            <div className="fixed bottom-0 inset-x-0 h-fit"><LogoComponent /></div>
+        </div >
     )
 }
 

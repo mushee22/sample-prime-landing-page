@@ -15,7 +15,7 @@ const Service = () => {
             <Container className="max-w-screen-2xl">
                 <div className="text-center mb-14">
                     <Typography variant='heading' size='md' className='text-dark mb-6'>Our Services</Typography>
-                    <Typography variant='title' size='sm' className='text-dark md:max-w-3xl mx-auto'>type of partner for today&apos;s clients. We bring our collective expertise, AI-driven intelligence and cut-through creativity to counsel clients and deliver transformative ideas that shape culture, spark change and deliver impact.</Typography>
+                    <Typography variant='title' size='sm' className='text-dark md:max-w-3xl mx-auto'>Type of partner for today&apos;s clients. We bring our collective expertise, AI-driven intelligence and cut-through creativity to counsel clients and deliver transformative ideas that shape culture, spark change and deliver impact.</Typography>
                 </div>
                 <div className="flex flex-wrap gap-2 md:gap-4 justify-center">
                     {services.map((service, i) => (

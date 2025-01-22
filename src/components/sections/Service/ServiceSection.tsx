@@ -7,11 +7,11 @@ const ServiceSection = () => {
   return (
     <section className="border-t border-primary-foreground/10">
       {services.map((service, i) => (
-        <Container key={i} className={cn("", i % 2 != 0 && "bg-gray-50")}>
-          <div className="max-w-screen-2xl mx-auto px-4 sm:px-16">
+        <div key={i} className={cn("", i % 2 != 0 && "bg-gray-50")}>
+          <Container className="max-w-screen-2xl mx-auto">
             <ServiceListSection service={service} />
-          </div>
-        </Container>
+          </Container>
+        </div>
       ))}
     </section>
   )

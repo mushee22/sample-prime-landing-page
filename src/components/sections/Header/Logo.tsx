@@ -11,7 +11,7 @@ const Logo = () => {
         src={logoLight}
         alt="Vellody"
         className="h-9 w-[164px] object-contain transition-all duration-300"
-        style={{ filter: "drop-shadow(0px 21px 38px #000000)" }}
+        style={{ filter: "drop-shadow(0px 4px 22px #0000001F)" }}
       />
     </Link>
   );

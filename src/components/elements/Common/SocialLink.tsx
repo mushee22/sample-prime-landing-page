@@ -13,7 +13,7 @@ function SocialLink({ href, icon, label, className }: SocialLinkProps) {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className={cn('size-14 md:size-16 rounded-xl border border-primary/10 flex items-center justify-center', className)}
+            className={cn('size-14 md:size-16 rounded-xl border border-primary/10 flex items-center justify-center bg-transparent hover:bg-primary ease-linear duration-500 transition-all', className)}
             aria-label={label}
         >
             {icon}
