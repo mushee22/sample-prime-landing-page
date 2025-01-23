@@ -16,6 +16,9 @@ export default {
                 xl: '1400px',
                 '2xl': '1512px',
             },
+            fontFamily: {
+                "sfpro-regular": `var(--font-sfPro-regular), sans-serif`,
+            },
             fontSize: {
                 '22': ['22px', '34px'],
                 '26': ['26px', '36px'],
