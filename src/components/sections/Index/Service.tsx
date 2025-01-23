@@ -33,7 +33,7 @@ const Service = () => {
                             Our Services
                         </Typography>
                     </motion.div>
-                    <Typography variant='title' size='sm' className='text-dark md:max-w-3xl mx-auto'>Type of partner for today&apos;s clients. We bring our collective expertise, AI-driven intelligence and cut-through creativity to counsel clients and deliver transformative ideas that shape culture, spark change and deliver impact.</Typography>
+                    <Typography variant='title' size='sm' className='text-dark md:max-w-3xl mx-auto'>Founded in research and developed through a comprehensive marketing strategy, our service solutions are unified and integrated. </Typography>
                 </div>
                 <div className="flex flex-wrap gap-2 md:gap-4 justify-center">
                     {services.map((service, i) => (
