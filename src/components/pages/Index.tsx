@@ -17,7 +17,7 @@ export const Index = () => {
             <WhyUsSticky />
             <WhyUsAfter />
             <Service />
-            <Testimonial />
+            {/* <Testimonial /> */}
         </main>
     )
 }

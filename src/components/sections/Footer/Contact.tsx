@@ -25,7 +25,7 @@ const Contact = () => {
                         </svg>
                         <Typography as='span' variant='body' size='md' className="text-foreground/80">enquiry@vellodycommunications.com</Typography>
                     </Link>
-                    <div className="h-4">
+                    {/* <div className="h-4">
                         <Separator orientation="vertical" className="bg-foreground/10" />
                     </div>
                     <Link href='tel:9999 999 999' target="_blank" className="flex gap-2 items-center">
@@ -36,7 +36,7 @@ const Contact = () => {
                             <path d="M4.25 9.9375H2C1.6925 9.9375 1.4375 9.6825 1.4375 9.375C1.4375 9.0675 1.6925 8.8125 2 8.8125H4.25C4.5575 8.8125 4.8125 9.0675 4.8125 9.375C4.8125 9.6825 4.5575 9.9375 4.25 9.9375Z" fill="#F7F9FC" fillOpacity="0.8" />
                         </svg>
                         <Typography as='span' variant='body' size='md' className="text-foreground/80">9999 999 999</Typography>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </Container>

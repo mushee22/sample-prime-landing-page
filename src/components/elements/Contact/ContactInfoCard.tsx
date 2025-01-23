@@ -12,7 +12,32 @@ import vector from '@/assets/bg/v.png'
 const ContactInfoCard = () => {
     return (
         <Card className="bg-gray-50 rounded-3xl md:rounded-[40px] shadow-none border-none relative overflow-hidden min-h-[500px] md:min-h-[774px] h-full">
-            <Image src={bg} alt="" className="absolute inset-0 object-cover z-[1]" />
+            {/* <Image src={bg} alt="" className="absolute inset-0 object-cover z-[1]" /> */}
+            <svg className="absolute inset-0 object-cover z-[1]" width="1168" height="780" viewBox="0 0 1168 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clipPath="url(#clip0_776_1515)">
+                <g filter="url(#filter0_f_776_1515)">
+                    <ellipse cx="1077" cy="-52.5" rx="297" ry="293.5" fill="#F3951D" />
+                </g>
+                <g filter="url(#filter1_f_776_1515)">
+                    <ellipse cx="507" cy="-102.5" rx="297" ry="293.5" fill="#F3951D" />
+                </g>
+            </g>
+            <defs>
+                <filter id="filter0_f_776_1515" x="246" y="-880" width="1662" height="1655" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="267" result="effect1_foregroundBlur_776_1515" />
+                </filter>
+                <filter id="filter1_f_776_1515" x="-324" y="-930" width="1662" height="1655" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="267" result="effect1_foregroundBlur_776_1515" />
+                </filter>
+                <clipPath id="clip0_776_1515">
+                    <rect width="1168" height="780" fill="white" />
+                </clipPath>
+            </defs>
+        </svg>
             <Image src={vector} alt="" className="absolute bottom-0 right-0 object-contain" />
 
             <CardContent className="p-8 md:p-10 xl:p-16 relative grid content-between z-[2] h-[500px] md:h-[774px]">
@@ -40,7 +65,7 @@ const ContactInfoCard = () => {
                             </svg>
                             <Typography as='span' variant='body' size='md' className="text-dark">enquiry@vellodycommunications.com</Typography>
                         </Link>
-                        <div className="h-4">
+                        {/* <div className="h-4">
                             <Separator orientation="vertical" className="bg-dark" />
                         </div>
                         <Link href='tel:9999 999 999' target="_blank" className="flex gap-2 items-center">
@@ -50,7 +75,7 @@ const ContactInfoCard = () => {
                                 <path d="M16.5 7.3125C16.1925 7.3125 15.9375 7.0575 15.9375 6.75C15.9375 4.1625 13.8375 2.0625 11.25 2.0625C10.9425 2.0625 10.6875 1.8075 10.6875 1.5C10.6875 1.1925 10.9425 0.9375 11.25 0.9375C14.4525 0.9375 17.0625 3.5475 17.0625 6.75C17.0625 7.0575 16.8075 7.3125 16.5 7.3125Z" fill="#111111" />
                             </svg>
                             <Typography as='span' variant='body' size='md' className="text-dark">9999 999 999</Typography>
-                        </Link>
+                        </Link> */}
                     </div>
 
                     <div className='flex gap-2.5 items-center order-1 lg:order-2'>
@@ -60,7 +85,7 @@ const ContactInfoCard = () => {
                     </div>
                 </div>
             </CardContent>
-        </Card>
+        </Card >
     )
 }
 
