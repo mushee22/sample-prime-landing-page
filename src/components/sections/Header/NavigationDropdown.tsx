@@ -27,6 +27,6 @@ const menuItems = [
     { title: "Who We Are", path: "/#who-we-are" },
     { title: "Why Choose Us", path: "/#why-choose-us" },
     { title: "Services", path: "/services" },
-    { title: "Clients", path: "/#clients" },
+    // { title: "Clients", path: "/#clients" },
     { title: "Contact Us", path: "/contact" }
 ]

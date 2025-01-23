@@ -23,17 +23,17 @@ function ServiceListItem({ title, text, descriptions, quote, quoter, features, t
                             <Image src={src} alt={title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 384px" priority={false} className="rounded-3xl object-cover" />
                         </div> */}
                         <div>
-                            <Typography variant='heading' size='md' > {title} </Typography>
+                            <Typography variant='heading' size='md' className='capitalize'> {title} </Typography>
                             <div className="mt-6">
-                                <Typography variant='title' size='md' className='text-primary mt-6'> “{quote}“ </Typography>
-                                <Typography variant='title' size='md' className='text-primary'> -{quoter} </Typography>
+                                <Typography as='span' variant='title' size='md' className='text-primary mt-6'> “{quote}“ </Typography>
+                                <Typography as='span' variant='title' size='md' className='text-primary italic'> -{quoter} </Typography>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className="space-y-6">
-                        {text && <Typography variant='title' size='lg'>{text} </Typography>}
+                        {text && <Typography variant='title' size='lg' className='capitalize'>{text} </Typography>}
 
                         {typeof descriptions == 'string' ?
                             <Typography variant='title' size='sm' className=''>

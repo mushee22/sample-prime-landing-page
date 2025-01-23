@@ -23,6 +23,10 @@ function WhyUsSticky() {
     const scale3 = useTransform(progress3, [0, 1], [1.8, 1]);
     const opacity3 = useTransform(progress3, [0, 1], [0, 1]);
 
+    const text = "Stuck with an Aging Brand that is Lost in the Jungle of AI and Modern Tech?";
+
+    const words = text.split(" ");
+
     return (
         <section className="bg-foreground h-[300vh]">
             <div className="h-screen sticky top-0 flex flex-col items-center justify-between overflow-hidden px-4 md:px-12 xl:px-16">
@@ -31,9 +35,30 @@ function WhyUsSticky() {
                     style={{ scale: scale1, opacity: opacity1 }}
                     className="absolute inset-0 flex justify-center items-center"
                 >
-                    <Typography variant="title" size="lg" className="text-dark max-w-[800px] mx-auto text-center w-[92%]">
+                    {/* <Typography variant="title" size="lg" className="text-dark max-w-[800px] mx-auto text-center w-[92%]">
                         Stuck with an Aging Brand that is Lost in the Jungle of AI and Modern Tech?
-                    </Typography>
+                    </Typography> */}
+                    <div className="text-dark max-w-[800px] mx-auto text-center w-[92%]">
+                        {words.map((word, index) => (
+                            <motion.span
+                                key={index}
+                                initial={{ scale: 1.8, filter: "blur(8px)", x: 60, opacity: 0 }}
+                                whileInView={{ scale: 1, filter: "blur(0px)", x: 0, opacity: 1 }}
+                                transition={{
+                                    type: "spring",
+                                    stiffness: 100,
+                                    damping: 10,
+                                    bounce: 0,
+                                    duration: 0.7,
+                                    delay: index * 0.05,
+                                }}
+                                viewport={{ once: true, amount: 0.2 }}
+                                className="inline-block mx-1"
+                            >
+                                <Typography variant="title" size="lg"  >  {word}</Typography>
+                            </motion.span>
+                        ))}
+                    </div>
                 </motion.div>
                 <motion.div
                     style={{ scale: scale2, opacity: opacity2 }}

@@ -134,8 +134,8 @@ const services = [
         "From product launches and pop-up events to trade shows and brand activations, we deliver creative solutions that drive consumer interaction and loyalty. ",
         "With a focus on immersive experiences, we bring a brand's story to life - often through innovative concepts and cutting-edge technology across various platforms, including live events, digital activations and social media integration; ensuring a multi-channel impact and a seamless experience."
       ],
-    quote: "Your brand is a story unfolding across all customer touchpoints.",
-    quoter: "Jonah Sachs",
+    quote: "It is no longer enough to satisfy your customers. You must delight them",
+    quoter: "Philip Kotler ",
     features:
       [
         "Media Events",
@@ -143,6 +143,7 @@ const services = [
         "⁠Pop Up Exhibitions",
         "In-store Activations",
         "⁠Business Conferences",
+        "Sponsorship Marketing"
       ]
   },
 ]

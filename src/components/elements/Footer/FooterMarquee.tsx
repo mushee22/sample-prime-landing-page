@@ -19,7 +19,7 @@ const Item = () => {
     return (
         <div className='flex items-center gap-6 mx-3'>
             <Image src={vector} alt='connect with us' className='opacity-30 h-10 w-auto' />
-            <Typography variant='heading' size='lg'>LETS CONNECT</Typography>
+            <Typography variant='heading' size='lg'>CONNECT NOW</Typography>
         </div>
     )
 }

@@ -26,7 +26,7 @@ export default function Header() {
             className="fixed top-0 inset-x-0 w-full z-[70]">
             <header className=''>
                 <Container className='z-50 relative'>
-                    <div className="flex justify-between gap-10 items-center pt-6 pb-4">
+                    <div className="flex justify-between gap-10 items-center pt-6 xl:pt-8 pb-4">
                         <Logo />
                         <HamburgerMenu isOpen={isOpen} setOpen={setOpen} />
                     </div>
