@@ -88,6 +88,9 @@ export default {
             },
             padding: {
                 26: '124px'
+            },
+            boxShadow: {
+                colorShadow: "0px 0px 64px 0px hsla(34, 90%, 53%, 0.32) inset"
             }
         },
     },

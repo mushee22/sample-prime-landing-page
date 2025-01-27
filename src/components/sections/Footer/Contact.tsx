@@ -1,7 +1,6 @@
 import Link from "next/link"
 
 import Container from "@/components/ui/Container"
-import { Separator } from "@/components/ui/Separator"
 import { Typography } from "@/components/ui/Typography"
 import FooterMarquee from "@/components/elements/Footer/FooterMarquee"
 
@@ -9,9 +8,9 @@ const Contact = () => {
     return (
         <Container className="pb-5 md:pb-12">
             <div className="mx-auto space-y-4 text-center flex flex-col justify-center">
-                <Typography variant='title' size='md'>Like to collaborate with us?</Typography>
+                <Typography variant='title' size='md'>Let&apos;s Collaborate</Typography>
                 <div>
-                    <div className="max-w-4xl mx-auto py-6 sm:py-8 xl:py-9 px-9 md:px-14 lg:px-9 xl:px-14 border border-primary/10 bg-foreground/5 rounded-full">
+                    <div className="max-w-4xl mx-auto py-6 sm:py-8 xl:py-9 px-9 md:px-14 lg:px-9 xl:px-14 border border-primary/10 bg-foreground/5 hover:border-primary/[64%] rounded-full hover:shadow-colorShadow ease-in-out duration-300">
                         <FooterMarquee />
                     </div>
                 </div>

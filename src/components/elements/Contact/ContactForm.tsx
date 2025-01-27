@@ -37,11 +37,11 @@ const ContactForm = () => {
 
   return (
     <div>
-      <Typography variant='heading' size='sm' className='mb-6 2xl:max-w-md'>What Services We Can Support You With?</Typography>
+      <Typography variant='heading' size='sm' className='mb-6 2xl:max-w-md'>What Services Can We Support You With?</Typography>
       <div>
         <form onSubmit={formik.handleSubmit}>
           <div className="space-y-3 mb-6">
-            <Label className="">Iam Interested In</Label>
+            <Label className="">I'am Interested In</Label>
             <ToggleGroup type="multiple" className="flex-wrap justify-start gap-2">
               {fields.map((field, i) => (
                 <ToggleGroupItem key={i} value={`item-${i}`} aria-label={`Toggle ${field}`} className="w-fit">
@@ -95,4 +95,4 @@ const ContactForm = () => {
 
 export default ContactForm
 
-const fields = ["Events & Activations", "Social Media Content Marketing", "Digital & SEO Marketing", "Influencer & UGC Management", "Others"]
+const fields = ["PR", "Social Media", "Digital & CRM", "Brand Design", "Influencer Marketing", "Events & Activations"]

@@ -20,7 +20,16 @@ const HeroVideo = () => {
                     }}
                     className="rounded-3xl md:rounded-40 overflow-hidden h-full"
                 >
-                    {/* <Image src={hero} alt="" className="w-full h-full" /> */}
+                    <video src="/hero-video-mobile.mp4"
+                        autoPlay
+                        muted
+                        loop
+                        controlsList="nodownload"
+                        playsInline
+                        webkit-playsinline="true"
+                        width="100%"
+                        height="100%" className="block lg:hidden object-cover h-full w-full aspect-video"></video>
+
                     <video src="/hero-video.mp4"
                         autoPlay
                         muted
@@ -29,7 +38,7 @@ const HeroVideo = () => {
                         playsInline
                         webkit-playsinline="true"
                         width="100%"
-                        height="100%" className="object-cover h-full w-full aspect-video"></video>
+                        height="100%" className="hidden lg:block object-cover h-full w-full aspect-video"></video>
                 </motion.div>
             </Container>
         </section>

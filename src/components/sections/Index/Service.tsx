@@ -59,26 +59,32 @@ export default Service
 const services = [
     {
         icon: i1,
-        title: "PR"
+        title: "PR",
+        id:'pr',
     },
     {
         icon: i2,
-        title: "Social Media"
+        title: "Social Media",
+         id:'media',
     },
     {
         icon: i3,
-        title: "Digital & CRM"
+        title: "Digital & CRM",
+         id:'crm',
     },
     {
         icon: i4,
-        title: "Brand Design"
+        title: "Brand Design",
+         id:'design',
     },
     {
         icon: i5,
         title: "Influencer Marketing",
+        id:'marketing',
     },
     {
         icon: i6,
-        title: "Events & Activations "
+        title: "Events & Activations ",
+         id:'events',
     }
 ]

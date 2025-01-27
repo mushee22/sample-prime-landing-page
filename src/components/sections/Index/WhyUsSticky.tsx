@@ -28,7 +28,7 @@ function WhyUsSticky() {
     const words = text.split(" ");
 
     return (
-        <section className="bg-foreground h-[300vh]">
+        <section className="bg-foreground h-[400vh]">
             <div className="h-screen sticky top-0 flex flex-col items-center justify-between overflow-hidden px-4 md:px-12 xl:px-16">
                 <Separator orientation="vertical" className="w-[1px] h-[32vh] bg-primary/25 justify-self-center" />
                 <motion.div
@@ -78,7 +78,7 @@ function WhyUsSticky() {
                 </motion.div>
                 <Separator orientation="vertical" className="w-[1px] h-[32vh] bg-primary/25 justify-self-center" />
             </div>
-            <div className="h-screen">
+            <div className="h-[200vh]">
                 <div ref={block1Ref} className="h-1/3" />
                 <div ref={block2Ref} className="h-1/3" />
                 <div ref={block3Ref} className="h-1/3" />

@@ -8,7 +8,7 @@ const ServiceSection = () => {
     <section className="border-t border-primary-foreground/10">
       {services.map((service, i) => (
         <div key={i} className={cn("", i % 2 != 0 && "bg-gray-50")}>
-          <Container className="max-w-screen-2xl mx-auto">
+          <Container className="max-w-screen-2xl mx-auto" id={service.id}>
             <ServiceListSection service={service} />
           </Container>
         </div>
@@ -21,6 +21,7 @@ export default ServiceSection
 
 const services = [
   {
+    id: "pr",
     theme: 'dark',
     title: "PR",
     text: "We reimagine communication strategies to create authentic narratives that are purpose-built to strengthen our client's reputation. ",
@@ -42,6 +43,7 @@ const services = [
       ]
   },
   {
+    id:"media",
     theme: 'light',
     title: "Social Media",
     text: "We have the technical know how but more importantly we know how to craft visual stories for products, services, and brands.",
@@ -63,6 +65,7 @@ const services = [
       ]
   },
   {
+    id:"crm",
     theme: 'dark',
     title: "Digital & CRM",
     text: "Our team of digital specialists excel in crafting high-impact digital solutions that deliver tangible results.",
@@ -84,6 +87,7 @@ const services = [
       ]
   },
   {
+    id:"design",
     theme: 'light',
     title: "Brand Design",
     text: "We develop a detailed and strategic roadmap to connect your business with your target audience based on thorough research.",
@@ -105,6 +109,7 @@ const services = [
       ]
   },
   {
+    id:"marketing",
     theme: 'dark',
     title: "Influencer Marketing",
     text: "Connect, influence and inspire is our motto when it comes to Influencer Marketing. ",
@@ -126,6 +131,7 @@ const services = [
       ]
   },
   {
+    id:"events",
     theme: 'light',
     title: "Events & Activations ",
     text: "We craft unique and customized experiences for brands to engage with their consumers by strategically conceptualizing, designing and Executing Experiential Marketing Campaigns. ",
