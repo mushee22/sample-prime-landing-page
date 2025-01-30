@@ -125,7 +125,7 @@ const services = [
         "Strategy",
         "Platform Selection",
         "⁠Influencer Selection",
-        "Campaign Managemen",
+        "Campaign Management",
         "⁠Brand Partnerships",
         "Analytics & Reporting"
       ]

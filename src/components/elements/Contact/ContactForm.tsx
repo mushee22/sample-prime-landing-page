@@ -23,17 +23,59 @@ const ContactForm = () => {
       name: "",
       company: "",
       email: "",
-      phone: ""
+      phone: "",
+      interest: ['PR'],
     },
     validationSchema: Yup.object().shape({
       name: Yup.string().min(2, "Name is too short").required("Name is required"),
       email: Yup.string().email('Invalid email').required("Email is required"),
       phone: Yup.string().required('Phone number is required')
     }),
-    onSubmit: (values) => {
-      console.log("Form Submitted:", values);
+    onSubmit: async (values, formikHelpers) => {
+
+      const apiEndpoint = "/api/send";
+
+      const email = values?.email;
+      const name = values?.name;
+      const company = values?.company;
+      const phone = values.phone;
+      const interested = values.interest.join(', ')
+
+      formikHelpers.setSubmitting(true);
+
+      try {
+        const response = await fetch(apiEndpoint, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            company,
+            phone,
+            interested
+          }),
+        });
+
+        if (response.ok) {
+          formik.resetForm();
+
+          console.log(
+            "Thank You! We've received your message and will follow up shortly."
+          );
+        } else {
+          console.log("Something went wrong! Try again later.");
+        }
+      } catch (error) {
+        console.log("Something went wrong! Try again later.");
+      } finally {
+        formikHelpers.setSubmitting(false);
+      }
     },
   });
+
+
 
   return (
     <div>
@@ -42,9 +84,11 @@ const ContactForm = () => {
         <form onSubmit={formik.handleSubmit}>
           <div className="space-y-3 mb-6">
             <Label className="">I'am Interested In</Label>
-            <ToggleGroup type="multiple" className="flex-wrap justify-start gap-2">
+            <ToggleGroup defaultChecked={true} defaultValue={['PR']} type="multiple" className="flex-wrap justify-start gap-2" onValueChange={(value) => {
+              formik.setFieldValue('interest', value)
+            }}>
               {fields.map((field, i) => (
-                <ToggleGroupItem key={i} value={`item-${i}`} aria-label={`Toggle ${field}`} className="w-fit">
+                <ToggleGroupItem key={i} value={field} aria-label={`Toggle ${field}`} className="w-fit" >
                   <Typography> {field} </Typography>
                 </ToggleGroupItem>
               ))}
@@ -78,7 +122,7 @@ const ContactForm = () => {
               className="flex h-12 w-full rounded-none border-b border-foreground/60 !bg-transparent py-3 text-base shadow-sm"
               defaultCountry="in"
               value={formik.values.phone}
-              onChange={(value) => formik.setFieldValue("phoneNumber", value)}
+              onChange={(value) => formik.setFieldValue("phone", value)}
             />
             {formik.errors.phone && formik.touched.phone && (
               <div className="text-red-500 text-xs mt-1">
