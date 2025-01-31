@@ -47,13 +47,13 @@ const ContactInfoCard = () => {
                 </div>
 
                 <div className="max-w-lg space-y-6">
-                    {/* <div className="flex gap-2">
+                    <div className="flex gap-2">
                         <svg className="flex-none" width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.00001 13.6275C7.40251 13.6275 6.09751 12.33 6.09751 10.725C6.09751 9.12 7.40251 7.83 9.00001 7.83C10.5975 7.83 11.9025 9.1275 11.9025 10.7325C11.9025 12.3375 10.5975 13.6275 9.00001 13.6275ZM9.00001 8.955C8.02501 8.955 7.22251 9.75 7.22251 10.7325C7.22251 11.715 8.01751 12.51 9.00001 12.51C9.98251 12.51 10.7775 11.715 10.7775 10.7325C10.7775 9.75 9.97501 8.955 9.00001 8.955Z" fill="#111111" />
                             <path d="M9.00001 20.07C7.89001 20.07 6.77251 19.65 5.90251 18.8175C3.69001 16.6875 1.24501 13.29 2.16751 9.2475C3.00001 5.58 6.20251 3.9375 9.00001 3.9375C9.00001 3.9375 9.00001 3.9375 9.00751 3.9375C11.805 3.9375 15.0075 5.58 15.84 9.255C16.755 13.2975 14.31 16.6875 12.0975 18.8175C11.2275 19.65 10.11 20.07 9.00001 20.07ZM9.00001 5.0625C6.81751 5.0625 4.01251 6.225 3.27001 9.495C2.46001 13.0275 4.68001 16.0725 6.69001 18C7.98751 19.2525 10.02 19.2525 11.3175 18C13.32 16.0725 15.54 13.0275 14.745 9.495C13.995 6.225 11.1825 5.0625 9.00001 5.0625Z" fill="#111111" />
                         </svg>
-                        <Typography className='text-dark'>Vellody, Bharatpur 45 Mango Grove Road, Sri Ramalingeshwara Nagar Krishna District, Andhra Pradesh</Typography>
-                    </div> */}
+                        <Typography className='text-dark'>Office 33, Level 11, Ibn Battuta Gate Offices, Dubai, UAE </Typography>
+                    </div>
 
                     <div className="flex flex-wrap items-center gap-2 md:gap-4">
                         <Link href='mailto:enquiry@vellodycommunications.com' target="_blank" className="flex gap-2 items-center">

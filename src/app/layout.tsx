@@ -8,6 +8,7 @@ import Footer from '@/components/sections/Footer/Footer';
 
 
 import { ToastContainer } from 'react-toastify'
+import WhatsApp from '@/components/elements/Common/Whatsapp';
 
 const sfProBold = localFont({
     src: "../fonts/SFPRODISPLAYMEDIUM.woff",
@@ -50,8 +51,10 @@ export default function RootLayout({
                         limit={1}
                     />
 
-
                     {children}
+
+                    <WhatsApp />
+
                     <Footer />
                 </SmoothScrolling>
             </body>

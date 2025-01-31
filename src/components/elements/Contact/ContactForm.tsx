@@ -127,7 +127,7 @@ const ContactForm = () => {
             <PhoneInput
               name="whatsapp"
               className="flex h-12 w-full rounded-none border-b border-foreground/60 !bg-transparent py-3 text-base shadow-sm"
-              defaultCountry="in"
+              defaultCountry="ae"
               value={formik.values.phone}
               onChange={(value) => formik.setFieldValue("phone", value)}
             />
