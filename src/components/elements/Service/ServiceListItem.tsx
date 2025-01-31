@@ -49,7 +49,7 @@ function ServiceListItem({ title, text, descriptions, quote, quoter, features, t
                     </div>
                     <div className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-4 mt-6 xl:mt-9">
                         {features.map((feature, i) => (
-                            <div key={i} className={cn("rounded-lg md:rounded-2xl sm:basis-[calc(50%-16px)] w-fit max-w-[420px] py-3 px-6 h-full", theme == 'light' ? "bg-card" : "bg-[#F7F9FC1F]")}>
+                            <div key={i} className={cn("rounded-lg md:rounded-2xl sm:basis-[calc(50%-16px)] w-fit max-w-[420px] py-3 px-6 h-full border border-primary/50", theme == 'light' ? "bg-card" : "bg-[#F7F9FC1F]")}>
                                 <Typography variant='title' size='sm'>{feature}</Typography>
                             </div>
                         ))}

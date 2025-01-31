@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/Input"
 import { Label } from "@/components/ui/Label"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/ToggleGroup"
 import { Typography } from "@/components/ui/Typography"
+import { toast } from "react-toastify";
 
 const ContactForm = () => {
 
@@ -61,12 +62,18 @@ const ContactForm = () => {
         if (response.ok) {
           formik.resetForm();
 
-          console.log(
+          // console.log(
+          //   "Thank You! We've received your message and will follow up shortly."
+          // );
+
+          toast.success(
             "Thank You! We've received your message and will follow up shortly."
           );
         } else {
-          console.log("Something went wrong! Try again later.");
+          // console.log("Something went wrong! Try again later.");
+          toast.error("Something went wrong! Try again later.");
         }
+
       } catch (error) {
         console.log("Something went wrong! Try again later.");
       } finally {

@@ -6,6 +6,9 @@ import SmoothScrolling from '@/components/ui/SmoothScrolling';
 import Header from '@/components/sections/Header/Header';
 import Footer from '@/components/sections/Footer/Footer';
 
+
+import { ToastContainer } from 'react-toastify'
+
 const sfProBold = localFont({
     src: "../fonts/SFPRODISPLAYMEDIUM.woff",
     variable: "--font-sfPro-bold",
@@ -41,6 +44,13 @@ export default function RootLayout({
             >
                 <SmoothScrolling>
                     <Header />
+                    <ToastContainer
+                        position="top-right"
+                        className="!top-24 lg:w-1/3"
+                        limit={1}
+                    />
+
+
                     {children}
                     <Footer />
                 </SmoothScrolling>

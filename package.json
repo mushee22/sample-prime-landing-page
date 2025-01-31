@@ -34,6 +34,7 @@
     "react-email": "^3.0.6",
     "react-fast-marquee": "^1.6.5",
     "react-international-phone": "^4.4.0",
+    "react-toastify": "^11.0.3",
     "resend": "^4.1.1",
     "swiper": "^11.2.1",
     "tailwind-merge": "^2.6.0",
