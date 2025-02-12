@@ -15,7 +15,7 @@ const Contact = () => {
                         <FooterMarquee />
                     </div>
                 </div>
-                <div className="flex items-center w-fit mx-auto gap-2 md:gap-4 max-sm:px-0 p-4">
+                <div className="flex flex-wrap justify-center gap-3 items-center w-fit mx-auto md:gap-4 max-sm:px-0 p-4">
                     <Link href='mailto:enquiry@vellodycommunications.com' target="_blank" className="flex gap-2 items-center">
                         <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.25 15.9375H5.75C5.4425 15.9375 5.1875 15.6825 5.1875 15.375C5.1875 15.0675 5.4425 14.8125 5.75 14.8125H13.25C15.395 14.8125 16.4375 13.77 16.4375 11.625V6.375C16.4375 4.23 15.395 3.1875 13.25 3.1875H5.75C3.605 3.1875 2.5625 4.23 2.5625 6.375C2.5625 6.6825 2.3075 6.9375 2 6.9375C1.6925 6.9375 1.4375 6.6825 1.4375 6.375C1.4375 3.6375 3.0125 2.0625 5.75 2.0625H13.25C15.9875 2.0625 17.5625 3.6375 17.5625 6.375V11.625C17.5625 14.3625 15.9875 15.9375 13.25 15.9375Z" fill="#F7F9FC" fillOpacity="0.8" />
@@ -25,7 +25,7 @@ const Contact = () => {
                         </svg>
                         <Typography as='span' variant='body' size='md' className="text-foreground/80">enquiry@vellodycommunications.com</Typography>
                     </Link>
-                    <div className="h-4">
+                    <div className="h-4 max-md:hidden">
                         <Separator orientation="vertical" className="bg-foreground/10" />
                     </div>
                     <Link href='tel:971551563435' target="_blank" className="flex gap-2 items-center">
