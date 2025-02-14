@@ -90,7 +90,7 @@ const ContactForm = () => {
       <div>
         <form onSubmit={formik.handleSubmit}>
           <div className="space-y-3 mb-6">
-            <Label className="">I'am Interested In</Label>
+            {/* <Label className="">I'am Interested In</Label> */}
             <ToggleGroup defaultChecked={true} defaultValue={['PR']} type="multiple" className="flex-wrap justify-start gap-2" onValueChange={(value) => {
               formik.setFieldValue('interest', value)
             }}>

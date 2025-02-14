@@ -43,7 +43,7 @@ const ContactInfoCard = () => {
             <CardContent className="p-8 md:p-10 xl:p-16 relative grid content-between z-[2] h-[500px] md:h-[774px]">
                 <div>
                     <Typography variant='heading' size='md' className='text-dark'>Contact Us</Typography>
-                    <Typography variant='title' size='sm' className='text-dark'>Lets Plan Your Growth</Typography>
+                    <Typography variant='title' size='sm' className='text-dark'>Let us plan your growth</Typography>
                 </div>
 
                 <div className="max-w-lg space-y-6">

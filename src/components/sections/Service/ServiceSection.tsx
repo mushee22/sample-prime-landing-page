@@ -24,7 +24,7 @@ const services = [
     id: "pr",
     theme: 'dark',
     title: "PR",
-    text: "We reimagine communication strategies to create authentic narratives that are purpose-built to strengthen our client's reputation. ",
+    text: "We reImagine communication strategies to create authentic narratives that are purpose-built to strengthen our client's reputation. ",
     descriptions:
       [
         "We do this by offering our clients a chance to work with a portfolio of industry specialists within the PR segment that include Consumer & Retail, Corporate, Tech & Finance, Advocacy & Public Affairs, Sustainability & Biodiversity. ",
