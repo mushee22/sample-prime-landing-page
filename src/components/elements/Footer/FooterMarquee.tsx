@@ -9,7 +9,7 @@ import Link from 'next/link'
 const FooterMarquee = () => {
     return (
         <Marquee autoFill speed={140} className='overflow-hidden'>
-            <Link href='/contact'>
+            <Link href='/'>
                 <Item />
             </Link>
         </Marquee>

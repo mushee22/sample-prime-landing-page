@@ -29,7 +29,7 @@ const sfProRegular = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Vellody',
+    title: 'Prime',
     description: '',
 };
 
@@ -52,9 +52,6 @@ export default function RootLayout({
                     />
 
                     {children}
-
-                    <WhatsApp />
-
                     <Footer />
                 </SmoothScrolling>
             </body>

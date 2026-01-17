@@ -50,8 +50,8 @@ function IntroText({
 }
 
 const introTexts = [
-  <>WE ARE MARKETING RE<Typography as="span" variant="heading" size="md" font="lg" className="text-primary">I</Typography>MAGINED</>,
-  "Providing Data Driven Solutions",
-  "Through a Unified Approach to Communications",
-  "With Impactful Creative & Storytelling",
+  <>LOREM IPSUM DOLOR SIT AMET<Typography as="span" variant="heading" size="md" font="lg" className="text-primary">I</Typography>MAGINED</>,
+  "Lorem ipsum dolor sit amet",
+  "Lorem ipsum dolor sit amet consectetur",
+  "Lorem ipsum dolor sit amet",
 ];

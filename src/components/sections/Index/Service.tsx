@@ -33,7 +33,9 @@ const Service = () => {
                             Our Services
                         </Typography>
                     </motion.div>
-                    <Typography variant='title' size='sm' className='text-dark md:max-w-3xl mx-auto'>Founded in research and developed through a comprehensive marketing strategy, our service solutions are unified and integrated. </Typography>
+                    <Typography variant='title' size='sm' className='text-dark md:max-w-3xl mx-auto'>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
+                    </Typography>
                 </div>
                 <div className="flex flex-wrap gap-2 md:gap-4 justify-center">
                     {services.map((service, i) => (
@@ -59,32 +61,27 @@ export default Service
 const services = [
     {
         icon: i1,
-        title: "PR",
-        id:'pr',
+        title: "Service 1",
+        id: 'pr',
     },
     {
         icon: i2,
-        title: "Social Media",
-         id:'media',
+        title: "Service 2",
+        id: 'media',
     },
     {
         icon: i3,
-        title: "Digital & CRM",
-         id:'crm',
+        title: "Service 3",
+        id: 'crm',
     },
     {
         icon: i4,
-        title: "Brand Design",
-         id:'design',
+        title: "Service 4",
+        id: 'design',
     },
     {
         icon: i5,
-        title: "Influencer Marketing",
-        id:'marketing',
+        title: "Service 5",
+        id: 'marketing',
     },
-    {
-        icon: i6,
-        title: "Events & Activations ",
-         id:'events',
-    }
 ]

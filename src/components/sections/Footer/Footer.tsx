@@ -12,7 +12,7 @@ export default function Footer() {
 
 const socialLinks = [
     {
-        href: "https://www.instagram.com/vellody_communications",
+        href: "#",
         label: "instagram",
         icon: <><svg className="" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_336_554)">
@@ -29,7 +29,7 @@ const socialLinks = [
         </>,
     },
     {
-        href: "https://www.linkedin.com/posts/vellody-communications-llc_weve-just-updated-our-page-visit-our-page-activity-7293662229000810497-4kzU?utm_source=share&utm_medium=member_ios",
+        href: "#",
         label: "linkedin",
         icon: <><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_336_557)">

@@ -23,7 +23,7 @@ function WhyUsSticky() {
     const scale3 = useTransform(progress3, [0, 1], [1.8, 1]);
     const opacity3 = useTransform(progress3, [0, 1], [0, 1]);
 
-    const text = "Stuck with an Aging Brand that is Lost in the Jungle of AI and Modern Tech?";
+    const text = "Lorem ipsum dolor sit amet consectetur adipiscing elit";
 
     const words = text.split(" ");
 
@@ -65,7 +65,7 @@ function WhyUsSticky() {
                     className="absolute inset-0 flex justify-center items-center"
                 >
                     <Typography variant="title" size="lg" className="text-dark max-w-[800px] mx-auto text-center w-[92%]">
-                        Need to Build Brand Credibility or Targeted Audience Engagement?
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit
                     </Typography>
                 </motion.div>
                 <motion.div
@@ -73,7 +73,7 @@ function WhyUsSticky() {
                     className="absolute inset-0 flex justify-center items-center"
                 >
                     <Typography variant="title" size="lg" className="text-dark max-w-[800px] mx-auto text-center w-[92%]">
-                        All Your Brand Needs is the Right Marketing Partner!
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit
                     </Typography>
                 </motion.div>
                 <Separator orientation="vertical" className="w-[1px] h-[32vh] bg-primary/25 justify-self-center" />

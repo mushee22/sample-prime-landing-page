@@ -13,7 +13,7 @@ const WhyUs = () => {
     const scale = useTransform(scrollYProgress, [0, 1], [1, 10]);
     const smoothScale = useSpring(scale, { stiffness: 100, damping: 20 });
 
-    const text = "Need to Launch a New Product but Don't Know Where to Begin? ";
+    const text = "Lorem ipsum dolor sit amet consectetur adipiscing elit";
 
     const words = text.split(" ");
 
