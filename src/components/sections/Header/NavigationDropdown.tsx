@@ -24,9 +24,9 @@ const NavigationDropdown = ({ setOpen }: NavigationDropdownProps) => {
 export default NavigationDropdown
 
 const menuItems = [
-    { title: "Who We Are", path: "/#who-we-are" },
-    { title: "Why Choose Us", path: "/#why-choose-us" },
-    { title: "Services", path: "/services" },
+    { title: "Who We Are", path: "/" },
+    { title: "Why Choose Us", path: "/" },
+    { title: "Services", path: "/" },
     // { title: "Clients", path: "/#clients" },
-    { title: "Contact Us", path: "/contact" }
+    { title: "Contact Us", path: "/" }
 ]

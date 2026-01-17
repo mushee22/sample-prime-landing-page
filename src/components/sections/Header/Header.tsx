@@ -28,11 +28,11 @@ export default function Header() {
                 <Container className='z-50 relative'>
                     <div className="flex justify-between gap-10 items-center pt-6 xl:pt-8 pb-4">
                         <Logo />
-                        {/* <HamburgerMenu isOpen={isOpen} setOpen={setOpen} /> */}
+                        <HamburgerMenu isOpen={isOpen} setOpen={setOpen} />
                     </div>
                 </Container>
                 <div className={cn("fixed w-full inset-x-0 top-0 bg-background z-40 transition-all duration-700 pt-24 h-dvh", isOpen ? 'pointer-events-auto opacity-100' : 'opacity-0 -translate-y-full pointer-events-none')}>
-                    {/* <NavigationDropdown setOpen={setOpen} /> */}
+                    <NavigationDropdown setOpen={setOpen} />
                 </div>
             </header>
         </motion.div>
