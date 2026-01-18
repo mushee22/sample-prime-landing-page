@@ -23,7 +23,7 @@ const Contact = () => {
                             <path d="M6.5 12.9375H2C1.6925 12.9375 1.4375 12.6825 1.4375 12.375C1.4375 12.0675 1.6925 11.8125 2 11.8125H6.5C6.8075 11.8125 7.0625 12.0675 7.0625 12.375C7.0625 12.6825 6.8075 12.9375 6.5 12.9375Z" fill="#F7F9FC" fillOpacity="0.8" />
                             <path d="M4.25 9.9375H2C1.6925 9.9375 1.4375 9.6825 1.4375 9.375C1.4375 9.0675 1.6925 8.8125 2 8.8125H4.25C4.5575 8.8125 4.8125 9.0675 4.8125 9.375C4.8125 9.6825 4.5575 9.9375 4.25 9.9375Z" fill="#F7F9FC" fillOpacity="0.8" />
                         </svg>
-                        <Typography as='span' variant='body' size='md' className="text-foreground/80">enquiry@prime.com</Typography>
+                        <Typography as='span' variant='body' size='md' className="text-foreground/80">info@neb.ae</Typography>
                     </Link>
                     <div className="h-4 max-md:hidden">
                         <Separator orientation="vertical" className="bg-foreground/10" />
@@ -34,7 +34,7 @@ const Contact = () => {
                             <path d="M14.375 7.3125C14.0675 7.3125 13.8125 7.0575 13.8125 6.75C13.8125 6.48 13.5425 5.9175 13.0925 5.4375C12.65 4.965 12.1625 4.6875 11.75 4.6875C11.4425 4.6875 11.1875 4.4325 11.1875 4.125C11.1875 3.8175 11.4425 3.5625 11.75 3.5625C12.4775 3.5625 13.2425 3.9525 13.91 4.665C14.5325 5.3325 14.9375 6.15 14.9375 6.75C14.9375 7.0575 14.6825 7.3125 14.375 7.3125Z" fill="#F7F9FC" fillOpacity="0.8" />
                             <path d="M17 7.3125C16.6925 7.3125 16.4375 7.0575 16.4375 6.75C16.4375 4.1625 14.3375 2.0625 11.75 2.0625C11.4425 2.0625 11.1875 1.8075 11.1875 1.5C11.1875 1.1925 11.4425 0.9375 11.75 0.9375C14.9525 0.9375 17.5625 3.5475 17.5625 6.75C17.5625 7.0575 17.3075 7.3125 17 7.3125Z" fill="#F7F9FC" fillOpacity="0.8" />
                         </svg>
-                        <Typography as='span' variant='body' size='md' className="text-foreground/80">+971 1111111</Typography>
+                        <Typography as='span' variant='body' size='md' className="text-foreground/80">+971 4 000 0000</Typography>
                     </Link>
                 </div>
             </div>

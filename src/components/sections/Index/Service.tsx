@@ -30,11 +30,11 @@ const Service = () => {
                         viewport={{ once: true, amount: 0.2 }}
                     >
                         <Typography variant='heading' size='md' className='text-dark mb-6'>
-                            Our Services
+                            Our Expertise
                         </Typography>
                     </motion.div>
                     <Typography variant='title' size='sm' className='text-dark md:max-w-3xl mx-auto'>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
+                        Delivering multidisciplinary engineering and architectural solutions with a commitment to quality and innovation.
                     </Typography>
                 </div>
                 <div className="flex flex-wrap gap-2 md:gap-4 justify-center">
@@ -61,27 +61,27 @@ export default Service
 const services = [
     {
         icon: i1,
-        title: "Service 1",
-        id: 'pr',
+        title: "Architectural Design",
+        id: 'arch',
     },
     {
         icon: i2,
-        title: "Service 2",
-        id: 'media',
+        title: "Structural Engineering",
+        id: 'struct',
     },
     {
         icon: i3,
-        title: "Service 3",
-        id: 'crm',
+        title: "MEP Services",
+        id: 'mep',
     },
     {
         icon: i4,
-        title: "Service 4",
-        id: 'design',
+        title: "Construction Supervision",
+        id: 'supervision',
     },
     {
         icon: i5,
-        title: "Service 5",
-        id: 'marketing',
+        title: "Project Management",
+        id: 'management',
     },
 ]

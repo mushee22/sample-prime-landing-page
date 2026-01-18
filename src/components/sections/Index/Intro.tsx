@@ -50,8 +50,8 @@ function IntroText({
 }
 
 const introTexts = [
-  <>LOREM IPSUM DOLOR SIT AMET<Typography as="span" variant="heading" size="md" font="lg" className="text-primary">I</Typography>MAGINED</>,
-  "Lorem ipsum dolor sit amet",
-  "Lorem ipsum dolor sit amet consectetur",
-  "Lorem ipsum dolor sit amet",
+  <>ARCHITECTING <Typography as="span" variant="heading" size="md" font="lg" className="text-primary">E</Typography>XCELLENCE</>,
+  "Defining Dubai's Skyline Since 1984",
+  "Innovative Engineering & Sustainable Design",
+  "Built on Trust and Proven Expertise",
 ];

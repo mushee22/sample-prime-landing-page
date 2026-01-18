@@ -5,10 +5,10 @@ import './globals.css';
 import SmoothScrolling from '@/components/ui/SmoothScrolling';
 import Header from '@/components/sections/Header/Header';
 import Footer from '@/components/sections/Footer/Footer';
+import Loader from '@/components/elements/Common/Loader';
 
 
 import { ToastContainer } from 'react-toastify'
-import WhatsApp from '@/components/elements/Common/Whatsapp';
 
 const sfProBold = localFont({
     src: "../fonts/SFPRODISPLAYMEDIUM.woff",
@@ -29,8 +29,8 @@ const sfProRegular = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Prime',
-    description: '',
+    title: 'NEB Dubai - Architectural, Engineering & Supervision',
+    description: 'National Engineering Bureau (NEB) is a leading provider of Dubai-based Architectural, Engineering, Supervision and Management solutions.',
 };
 
 export default function RootLayout({
@@ -43,6 +43,7 @@ export default function RootLayout({
             <body
                 className={`${sfProRegular.variable} ${sfProMedium.variable}  ${sfProBold.variable} antialiased`}
             >
+                <Loader />
                 <SmoothScrolling>
                     <Header />
                     <ToastContainer
